@@ -1,0 +1,29 @@
+body {
+    background: url("aaaaa.png") no-repeat;
+    background-color: #000000;
+    background-size: cover;
+    background-position: 120% 120%;
+}
+#resim1  {
+    margin: 0 auto;
+    transform: translate(-762px, -30px);
+}
+
+#resim2  {
+    margin: 0 auto;
+    transform: translate(720px, -401px);
+}
+
+#resim3  {
+    margin: 0 auto;
+    transform: translate(730px, -380px);
+}
+
+#resim4  {
+    margin: 0 auto;
+    transform: translate(-800px, -820px);
+}
+
+
+
+
