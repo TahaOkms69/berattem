@@ -14,7 +14,7 @@
         <table id="resim1">
             <tr>
                 <td>
-                    <img src="viego_splash_tile_30.jpg" alt="">
+                    <img src="viego_splash_tile_30.jpg">
                 </td>
             </tr>
         </table>
@@ -22,7 +22,7 @@
         <table id="resim2">
             <tr>
                 <td>
-                    <img src="hıyar.jpg" alt="">
+                    <img src="hıyar.jpg">
                 </td>
             </tr>
         </table>
@@ -30,7 +30,7 @@
         <table id="resim3">
             <tr>
                 <td>
-                    <img src="images (3).jpg" alt="">
+                    <img src="images (3).jpg">
                 </td>
             </tr>
         </table>
@@ -38,7 +38,7 @@
         <table id="resim4">
             <tr>
                 <td>
-                    <img src="image.png" alt="">
+                    <img src="image.png">
                 </td>
             </tr>
         </table>
@@ -47,83 +47,3 @@
 
 </body>
 </html>
-ranchsos.css
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    min-height: 100vh;
-
-    background: url("aaaaa.png") no-repeat;
-    background-color: #000000;
-    background-size: cover;
-    background-position: center;
-
-    padding: 30px;
-}
-
-/* Resimlerin bulunduğu alan */
-.resimler {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-
-    display: grid;
-    grid-template-columns: repeat(2, 250px);
-    justify-content: center;
-    gap: 30px;
-}
-
-/* Tablolar */
-.resimler table {
-    width: 250px;
-    height: 250px;
-
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Resimler */
-.resimler img {
-    display: block;
-
-    width: 250px;
-    height: 250px;
-
-    object-fit: cover;
-}
-
-/* TELEFON */
-@media (max-width: 600px) {
-
-    body {
-        padding: 15px;
-
-        background-size: cover;
-        background-position: center;
-    }
-
-    .resimler {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .resimler table {
-        width: 100%;
-        max-width: 250px;
-        height: auto;
-
-        margin: 0 auto;
-    }
-
-    .resimler img {
-        width: 100%;
-        height: auto;
-
-        aspect-ratio: 1 / 1;
-        object-fit: cover;
-    }
-}
